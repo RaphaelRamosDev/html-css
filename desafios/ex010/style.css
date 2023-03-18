@@ -1,0 +1,181 @@
+@font-face {
+    font-family:'oficial' ;
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
+body{
+    height: 800px;
+    background-color: #3CD983;
+    margin: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 195px;
+    box-shadow: 1px 1px 10px black;
+    padding: 5px;
+    background-image: linear-gradient(
+    to bottom, #3CD983, #195B38
+    );
+    color: white;
+}
+
+nav{
+    margin-top: 10px;
+   
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 0px 20px 10px;
+}
+
+.titulo{
+    font-family:'Gajraj One', cursive;
+}
+
+.titulo, .primeiro {
+    text-align: center;
+} 
+
+h2{
+    padding: 10px;
+}
+
+.titulo{
+    
+   font-weight: bold;
+    margin-top: 20px;
+}
+
+main{
+    width: 820px;
+    margin: auto;
+    box-shadow: 1px 20px 2px 2px rgba(0, 0, 0, 0.39);
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+}
+p{
+    padding: 20px;
+}
+
+section{
+    
+    padding: 5px;
+    
+}
+
+h2{
+    font-family: 'oficial';
+    color: #195B38;
+}
+.primeirosub{
+    font-size: 2em
+}
+
+.segundosub{
+    background-color: #3cd98342;
+}
+
+span{
+    font-weight: bold;
+    color:#195B38;
+}
+
+.base{
+   padding: 4px;
+    
+}
+.droid{
+   
+    margin-left:260px;
+}
+
+.segunda{
+    width: 815px;
+    box-shadow: 1px 0px 10px 2px rgba(0, 0, 0, 0.274);
+    text-align: center;
+    text-align: justify;
+    margin:auto;
+    background-color:#195B38;
+}
+
+.video{
+    margin-left: 15px;
+}
+
+.final{
+    width: 820px;
+    box-shadow: 1px 0px 10px 2px rgba(0, 0, 0, 0.274);
+    background-color: white;
+    margin: auto;
+}
+
+h3{
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #3CD983;
+}
+
+.ultimo{
+    background-color: #3cd98363;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+}
+
+.lis2{
+margin-left: 100px;
+}
+
+
+ul>li::before{
+        content: '✔️';
+        position: relative;
+        right: 15px;
+       
+   
+}
+
+.site{
+    text-decoration: none;
+    color: #195B38;
+    font-weight: bold;
+}
+
+.pe{
+    
+    background-color: #195B38;
+    color: white;
+    text-align: center;
+}
+
+.fotpe{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+   
+
+
+
+    
+   
+
+
+
+
+
+
+    
+
+
+    
