@@ -15,6 +15,13 @@
             border-collapse: collapse;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         td, th{
             border: 1px solid black;
             padding: 10px;
@@ -34,9 +41,14 @@
     <h1>Uso de tabelas grandes</h1>
     
     <table>
+
+        <caption>População das unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
         </thead>
         <tr>
             <td>São Paulo</td>
@@ -135,7 +147,7 @@
 
         <tr>
             <td>Distrito Federal</td>
-            <td class="num">2,923,369</td>
+            <td class="num">2 923 369</td>
         </tr>
 
         <tr>
@@ -178,11 +190,13 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 
-                    <strong>
-                        <td>207 750 291</td>
-                    </strong>
+                    
+                        <strong>
+                            <td>207 750 291</td>
+                        </strong>
+                    
                 
             </tr>
         </tfoot>
